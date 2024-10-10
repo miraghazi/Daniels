@@ -1,0 +1,546 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: whitesmoke;
+  box-sizing: border-box;
+}
+.home{
+  position:relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(../imgs/imgs/bg.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+.home .info_home{
+  position: absolute;
+  left: 50%;
+  top: 15%;
+ 
+  }
+
+  .info_home span{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+  }
+.home .info_home h1{
+font-size: 4rem;
+}
+
+.home  .icon{
+position: absolute;
+left: 50%;
+top: 45%;
+
+}
+
+.info_home span::before {
+  content: '';
+  font-size: 3.7rem;
+    animation-name: typing;
+    animation-duration: 20s;
+    animation-delay: 1s;
+  animation-iteration-count: infinite;
+ 
+}
+@keyframes typing {
+  0% {
+    content: "I Am L|";
+  }
+  1% {
+    content: "I Am La|";
+  }
+  2% {
+    content: "I Am Lar|";
+  }
+  3% {
+    content: "I Am Larr|";
+  }
+  4% {
+    content: "I Am Larry|";
+  }
+  5% {
+    content: "I Am Larry D|";
+  }
+  6% {
+    content: "I Am Larry Da|";
+  }
+  7% {
+    content: "I Am Larry Dan|";
+  }
+  8% {
+    content: "I Am Larry Dani |";
+  }
+  9% {
+    content: "I Am Larry Danie|";
+  }
+  10% {
+    content: "I Am Larry Daniel|";
+  }
+  20% {
+    content: "I Am Larry Daniels|";
+  }
+  21% {
+    content: "I Am Larry Daniel|";
+  }
+  22% {
+    content: "I Am Larry Danie|";
+  }
+  23% {
+    content: "I Am Larry Dani|";
+  }
+  24% {
+    content: "I Am Larry Dan|";
+  }
+  25% {
+    content: "I Am Larry Da|";
+  }
+  26% {
+    content: "I Am Larry D|";
+  }
+  27% {
+    content: "I Am Larry|";
+  }
+  28% {
+    content: "I Am Larr|";
+  }
+  29% {
+    content: "I Am Lar|";
+  }
+  30% {
+    content:  "I Am La|";
+  }
+  31% {
+    content: "I Am L|";
+  }
+  32% {
+    content: "I Am |";
+  }
+  33% {
+    content:  "I Am D|";
+  }
+  34% {
+    content: "I Am De|";
+  }
+  35% {
+    content: "I Am Dev|";
+  }
+  36% {
+    content: "I Am Deve|";
+  }
+  37% {
+    content: "I Am Devel|";
+  }
+  38% {
+    content: "I Am Develo|";
+  }
+  39% {
+    content: "I Am Develop|";
+  }
+  40% {
+    content: "I Am Develope|";
+  }
+  41% {
+    content: "I Am Developer|";
+  }
+  42% {
+    content: "I Am Develope|";
+  }
+  43% {
+    content: "I Am Develop|";
+  }
+  44% {
+    content: "I Am Develo|";
+  }
+  45% {
+    content: "I Am Devel|";
+  }
+  46% {
+    content: "I Am Deve|";
+  }
+  47% {
+    content: "I Am Dev|";
+  }
+  48% {
+    content:"I Am De|";
+  }
+  49% {
+    content: "I Am D|";
+  }
+  50% {
+    content: "I Am |";
+  }
+  51% {
+    content:"I Am|";
+  }
+  52% {
+    content: "I Am D|";
+  }
+  53% {
+    content: "I Am De|";
+  }
+  54% {
+    content: "I Am Des|";
+  }
+  55% {
+    content: "I Am Desi|";
+  }
+  56% {
+    content:"I Am Desig|";
+  }
+
+  57% {
+    content: "I Am Desigh|";
+  }
+  58% {
+    content:  "I Am Desighe|";
+  }
+  59% {
+    content:"I Am Desigher|";
+  }
+  60% {
+    content: "I Am Desighe|";
+  }
+  61% {
+    content: "I Am Desigh|";
+  }
+  62% {
+    content:"I Am Desig|";
+  }
+  63% {
+    content: "I Am Desi|";
+  }
+  64% {
+    content:  "I Am Des|";
+  }
+  65% {
+    content:  "I Am De|";
+  }
+  66% {
+    content:  "I Am D|";
+  }
+  67% {
+    content: "I Am|";
+  }
+  68% {
+    content: "I Am|";
+  }
+  69% {
+    content: "I Am L|";
+  }
+  70% {
+    content: "I Am La|";
+  }
+  71% {
+    content: "I Am Lar|";
+  }
+  72% {
+    content: "I Am Larr|";
+  }
+  73% {
+    content: "I Am Larry|";
+  }
+  74% {
+    content: "I Am Larry D|";
+  }
+  75% {
+    content: "I Am Larry Da|";
+  }
+  76% {
+    content: "I Am Larry Dan|";
+  }
+  77% {
+    content: "I Am Larry Dani |";
+  }
+  78% {
+    content: "I Am Larry Danie|";
+  }
+  79% {
+    content: "I Am Larry Daniel|";
+  }
+  80% {
+    content: "I Am Larry Daniels|";
+  }
+  81% {
+    content: "I Am Larry Daniel|";
+  }
+  82% {
+    content: "I Am Larry Danie|";
+  }
+  83% {
+    content: "I Am Larry Dani|";
+  }
+  84% {
+    content: "I Am Larry Dan|";
+  }
+  85% {
+    content: "I Am Larry Da|";
+  }
+  86% {
+    content: "I Am Larry D|";
+  }
+  87% {
+    content: "I Am Larry|";
+  }
+  88% {
+    content: "I Am Larr|";
+  }
+  89% {
+    content: "I Am Lar|";
+  }
+  90% {
+    content:  "I Am La|";
+  }
+  91% {
+    content: "I Am L|";
+  }
+  92% {
+    content: "I Am |";
+  }
+  93% {
+    content: "I Am De|";
+  }
+  94% {
+    content: "I Am Dev|";
+  }
+  95% {
+    content: "I Am Deve|";
+  }
+  96% {
+    content: "I Am Devel|";
+  }
+  97% {
+    content: "I Am Develo|";
+  }
+  98% {
+    content: "I Am Develop|";
+  }
+  99% {
+    content: "I Am Develope|";
+  }
+  100% {
+    content: "I Am Developer|";
+  }
+} 
+/* start about */
+
+.about .box1:hover{
+background-color:white;
+color: black !important;
+}
+.about .box2:hover{
+  background-color:black;
+  color: white !important;
+  }
+
+.about .line1,.line2,.line3{
+    height: 20px;
+    }
+.about .f_about{
+  position: relative;
+}
+.about .f_about img{
+  position: relative;
+  left: 17%;
+}
+
+.about span{
+  letter-spacing: 2px;
+}
+@media screen and (max-width: 991px) {
+  .about .img {
+    width: 100%;
+      margin-bottom: 80px !important;
+  }
+  .about .f_about img{
+    text-align: center;
+
+  }
+}
+/* end about */
+/* start Services */
+.Services i{
+  background-color: whitesmoke;
+}
+
+.Services .box:hover i{
+  background-color: black;
+  color: white ;
+}
+/* end Services */
+/* start Portfolio */
+.Portfolio .card{
+  position: relative;
+}
+
+.Portfolio .layer{
+  position: absolute;
+  background-color: white;
+  width: 97%;
+  height: 97%;
+  margin: 5px 5px 5px 5px ;
+  overflow: hidden;
+  top: 0%;
+  opacity: 0;
+  transition: all 0.7s;
+
+}
+.layer:hover{
+opacity:1;
+ }
+
+
+.layer:hover .icon i{
+  background-color: aqua;
+  color: black; 
+  background-color :white;
+}
+ 
+/* end Portfolio */
+/* start Clients */
+.Clients img{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+.carousel-indicators [data-bs-target]{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+ background-color: grey;
+}
+/* end Clients */
+/* start Our_Team */
+.Our_Team .card .card-body {
+  background-color: #525252;
+}
+
+.Our_Team .card {
+  position: relative;
+}
+.Our_Team .social{
+  position: absolute;
+  background-color: white;
+
+  width: 97%;
+  height: 77%;
+  margin: 5px 5px 5px 5px ;
+  overflow: hidden;
+  top: 0%;
+  opacity: 0;
+  transition: all 0.7s;
+  transform: rotateY(-180deg)
+}
+
+.Our_Team .card:hover .social{
+  opacity: 1;
+  transform: scale(1, 1);
+}
+
+.list-inline i:hover{
+     color: black;
+    background-color:white;
+
+}
+/* end Our_Team */
+/* start Contact */
+.Contact i{
+  background-color: whitesmoke;
+}
+.Contact .box:hover i{
+  background-color: black;
+  color: white;
+}
+.Contact input{
+  background-color: whitesmoke;
+}
+.Contact textarea{
+  background-color: whitesmoke;
+}
+
+.Contact button:hover{
+  background-color: whitesmoke;
+  color: black;
+}
+/* end Contact */
+
+@media(max-width:640px){
+  .info_home span::before {
+    font-size: 2rem;
+  }
+  .home .info_home{
+    position: relative;
+    left: 50%;
+    top: 15%;
+   
+    }
+  
+    .info_home span{
+      position: absolute;
+      top: 150px;
+      left: 30%;
+    }
+
+} 
+@media(min-width:640px){
+  .info_home span::before {
+    font-size: 2rem;
+  }
+  .home .info_home{
+    position: relative;
+    left: 50%;
+    top: 15%;
+   
+    }
+  
+    .info_home span{
+      position: absolute;
+      top: 100px;
+      left: 49%;
+    }}
+
+   
+
+@media(min-width:786px){
+  .info_home span::before {
+    font-size: 2rem;
+  }
+  .home .info_home{
+    position: relative;
+    left: 50%;
+    top: 15%;
+   
+    }
+  
+    .info_home span{
+      position: absolute;
+      top: 100px;
+      left: 49%;
+    }
+
+   
+}
+
+@media(min-width:1024px){
+  .info_home span::before {
+       font-size: 3.7rem;
+  }
+  .home .info_home{
+    position: relative;
+    left: 50%;
+    top: 25%;
+    }
+  
+    .info_home span{
+      position: absolute;
+      top: 55%;
+      left: 45%;
+    }
+
+
+ 
+}
